@@ -1,0 +1,44 @@
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: black; /* Change background color to black */
+  color: red; /* Change font color to red */
+}
+
+.display {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+button {
+  width: 40px; /* Set button width */
+  height: 40px; /* Set button height */
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 50%; /* Make button circular */
+  background-color: #f3ca52; /* Change button color to "F3CA52" */
+  color: black; /* Change button text color to black */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
